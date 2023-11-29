@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Estática</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<body>
+    <div class="maior">
+        <center>
+            
+        <p class="titulo">Qual você deseja testar?</p>
+        <div class="menor">
+        <button class="btn" onclick="quarto()">Quarto</button>
+        <br>
+        <button class="btn" onclick="tv()">Sala de TV</button>
+        <br>
+        <button class="btn" onclick="animais()">Animais</button>
+        <br>
+        <button class="btn" onclick="rodovias()">Rodovias</button>
+        <br>
+        </div>
+        <br>
+        <br>
+        <p id="status">Status: <span id="span">Esperando escolher </span></p>
+        
+    </center>
+</div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
